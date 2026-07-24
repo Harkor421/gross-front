@@ -23,9 +23,9 @@ to you. Gross in, split in two, straight on-chain."
 
 | Thing | Where |
 |---|---|
-| Production | TBD (Vercel, not deployed yet) |
-| Deploy | `vercel deploy --prod --yes` from this directory once the project exists |
-| Backend | TBD. `VITE_WS_URL` default is the placeholder `wss://GROSS-BACK-URL-TBD`, patch it after the Railway domain exists |
+| Production | `https://gross-front.vercel.app` (Vercel project `gross-front`, scope harkor421) |
+| Deploy | `vercel deploy --prod --yes` from this directory (CLI logged in) |
+| Backend | `wss://gross-back-production.up.railway.app`, baked in as the default; no Vercel env needed |
 
 ## Wiring
 
@@ -56,7 +56,7 @@ Env overrides (all optional, Vite-style):
 
 | Var | Default | |
 |---|---|---|
-| `VITE_WS_URL` | `wss://GROSS-BACK-URL-TBD` | backend socket, patched after Railway domain exists |
+| `VITE_WS_URL` | `wss://gross-back-production.up.railway.app` | backend socket, patched after Railway domain exists |
 | `VITE_CA` | (none) | pin the CA (else it arrives over WS) |
 | `VITE_BUY_URL` | `https://www.noxa.fun` | GET $GROSS button target |
 | `VITE_EXPLORER` | `https://robinhoodchain.blockscout.com` | address/tx links (the chain is Robinhood Chain) |

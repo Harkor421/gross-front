@@ -9,7 +9,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
  */
 
 // patched after Railway domain exists
-const WS_URL = import.meta.env.VITE_WS_URL || "wss://GROSS-BACK-URL-TBD";
+const WS_URL = import.meta.env.VITE_WS_URL || "wss://gross-back-production.up.railway.app";
 const STATIC_CA = import.meta.env.VITE_CA || "";
 const BUY_BASE = (import.meta.env.VITE_BUY_URL || "https://www.noxa.fun").replace(/\/$/, "");
 const EXPLORER = (import.meta.env.VITE_EXPLORER || "https://robinhoodchain.blockscout.com").replace(/\/$/, "");
