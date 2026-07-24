@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- Gross income: green dollar on a ledger page -->
+  <rect width="120" height="120" rx="22" fill="#faf8f2"/>
+  <rect x="6" y="6" width="108" height="108" rx="17" fill="none" stroke="#1a1c18" stroke-width="4"/>
+  <line x1="24" y1="32" x2="96" y2="32" stroke="#ddd8c9" stroke-width="3"/>
+  <line x1="24" y1="48" x2="96" y2="48" stroke="#ddd8c9" stroke-width="3"/>
+  <text x="60" y="84" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="bold" text-anchor="middle" fill="#0e7a3b">$</text>
+  <line x1="32" y1="95" x2="88" y2="95" stroke="#0e7a3b" stroke-width="4"/>
+  <line x1="32" y1="102" x2="88" y2="102" stroke="#0e7a3b" stroke-width="2.5"/>
+</svg>

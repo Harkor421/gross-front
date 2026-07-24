@@ -1,0 +1,21 @@
+{
+  "name": "gross-front",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Gross income, hold $GROSS and collect the bottom line: fees split 50/50, half to DEX boosts and marketing, half to holders as $1 drops every 5 minutes, biggest bag first.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite preview --host 0.0.0.0 --port ${PORT:-4173}"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.1.7"
+  }
+}
