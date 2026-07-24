@@ -23,7 +23,7 @@ to you. Gross in, split in two, straight on-chain."
 
 | Thing | Where |
 |---|---|
-| Production | `https://gross-front.vercel.app` (Vercel project `gross-front`, scope harkor421) |
+| Production | `https://gross-front-zeta.vercel.app` (Vercel project `gross-front`, scope harkor421) |
 | Deploy | `vercel deploy --prod --yes` from this directory (CLI logged in) |
 | Backend | `wss://gross-back-production.up.railway.app`, baked in as the default; no Vercel env needed |
 
