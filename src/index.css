@@ -519,7 +519,7 @@ body::before {
   .tape-track, .led.on, .dt-clock.soon,
   .sd-dash, .sd-gbox, .sd-hbox { animation: none !important; }
   .sd-coin { animation: none !important; opacity: 0; }
-  .toast, .toast.out { animation: none !important; }
+  .toast, .toast.out, .spot-res { animation: none !important; }
   .feed .f-row:first-child { animation: none; }
   .rev { opacity: 1; transform: none; filter: none; transition: none; }
   .stat, .btn, .ca, .sound-btn { transition: none; }

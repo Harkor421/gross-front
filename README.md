@@ -103,7 +103,7 @@ src/App.jsx       everything else:
   SpotResult      the your-spot-in-line card (shown on exact wallet match)
   Reveal          IntersectionObserver blur-fade (Magic UI style, no deps)
   useNow / useCountUp / fmt* helpers
-public/logo.svg   favicon + og mark: green serif $ over ledger rules,
+public/logo.svg   favicon + brand mark: green serif $ over ledger rules,
                   double total-rule underneath
 ```
 
